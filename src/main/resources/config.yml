@@ -1,0 +1,34 @@
+language: zh_CN
+debug: false
+
+drops:
+  common_fish:
+    id: COD
+    chance: 50.0
+    amount: 1
+    display-name: "&f普通鱼"
+    lore:
+      - "&7一条普通的鱼"
+      - "&7没什么特别的"
+  rare_fish:
+    id: SALMON
+    chance: 30.0
+    amount: 1
+    display-name: "&b稀有鲑鱼"
+    lore:
+      - "&7闪闪发光的鲑鱼"
+  legendary_fish:
+    id: PUFFERFISH
+    chance: 15.0
+    amount: 1
+    display-name: "&#FFD700传说河豚"
+    lore:
+      - "&#FF5555极其罕见的河豚"
+      - "&#55FF55据说能带来好运"
+  treasure:
+    id: DIAMOND
+    chance: 5.0
+    amount: 1
+    display-name: "&#55FFFF钻石宝藏"
+    lore:
+      - "&7你钓到了宝藏！"

@@ -1,0 +1,19 @@
+name: TangFish
+version: 1.0.0
+main: com.kyotoanimation.tangfish.TangFish
+author: KyotoAnimation
+description: A fishing plugin for Minecraft
+
+commands:
+  tangfish:
+    description: Main command for TangFish plugin
+    usage: /<command> [reload|list|pool|help]
+    aliases: [tf]
+
+permissions:
+  tangfish.admin:
+    description: Admin permission for TangFish
+    default: op
+  tangfish.user:
+    description: User permission for TangFish
+    default: true

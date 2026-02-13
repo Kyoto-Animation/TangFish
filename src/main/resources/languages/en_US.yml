@@ -1,0 +1,26 @@
+prefix: "&6[TangFish] &r"
+
+debug:
+  caught: "&7[Debug] Random: &e{random}&7, Selected: &b{item}"
+
+fishing:
+  caught: "&aYou caught: &f{item}"
+  no_drops: "&cNo fishing drops configured"
+
+reload:
+  success: "&aConfiguration reloaded"
+  failed: "&cFailed to reload configuration"
+
+error:
+  no_permission: "&cYou don't have permission to do this"
+  player_only: "&cThis command can only be executed by a player"
+  invalid_config: "&cInvalid configuration format"
+  invalid_command: "&cUnknown subcommand"
+
+help:
+  header: "&e========== &6TangFish Help &e=========="
+  footer: "&e====================================="
+  reload: "&a/tangfish reload &7- Reload configuration"
+  list: "&a/tangfish list &7- Show drop pool list"
+  info: "&a/tangfish info &7- Show plugin information"
+  help: "&a/tangfish help &7- Show help information"

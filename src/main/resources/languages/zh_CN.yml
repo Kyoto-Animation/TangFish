@@ -1,0 +1,26 @@
+prefix: "&6[TangFish] &r"
+
+debug:
+  caught: "&7[Debug] 随机数: &e{random}&7, 选中物品: &b{item}"
+
+fishing:
+  caught: "&a你钓到了: &f{item}"
+  no_drops: "&c没有配置任何钓鱼掉落物"
+
+reload:
+  success: "&a配置已重新加载"
+  failed: "&c配置重新加载失败"
+
+error:
+  no_permission: "&c你没有权限执行此操作"
+  player_only: "&c此命令只能由玩家执行"
+  invalid_config: "&c配置文件格式错误"
+  invalid_command: "&c未知的子命令"
+
+help:
+  header: "&e========== &6TangFish 帮助 &e=========="
+  footer: "&e====================================="
+  reload: "&a/tangfish reload &7- 重新加载配置"
+  list: "&a/tangfish list &7- 显示奖池列表"
+  info: "&a/tangfish info &7- 显示插件信息"
+  help: "&a/tangfish help &7- 显示帮助信息"
